@@ -42,19 +42,19 @@ def collect():
 
 
 def render(data):
-    colors = ["#22d3ee", "#a78bfa", "#f472b6", "#34d399", "#fbbf24"]
+    colors = ["#b78091", "#9a8baa", "#c5a180", "#91a58e", "#c4ad81"]
     parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="960" height="380" viewBox="0 0 960 380" role="img" aria-labelledby="title desc">',
              '<title id="title">Ananta’s public GitHub dashboard</title><desc id="desc">Public repositories, stars, followers, forks and language bytes.</desc>',
-             '<rect width="960" height="380" rx="20" fill="#0d1117"/>',
-             '<rect x="1" y="1" width="958" height="378" rx="19" fill="none" stroke="#303645"/>',
-             '<g font-family="monospace"><text x="32" y="40" font-size="15" fill="#94a3b8">PUBLIC GITHUB / LIVE SNAPSHOT</text>',
-             '<circle cx="914" cy="35" r="5" fill="#34d399"><animate attributeName="opacity" values="1;.35;1" dur="3s" repeatCount="indefinite"/></circle>']
-    for i, (key, label) in enumerate([("repos", "PUBLIC REPOS"), ("stars", "STARS EARNED"), ("followers", "FOLLOWERS"), ("forks", "FORKS EARNED")]):
+             '<rect width="960" height="380" rx="20" fill="#fbf7f4"/>',
+             '<rect x="1" y="1" width="958" height="378" rx="19" fill="none" stroke="#e7dcd8"/>',
+             '<g font-family="Georgia, serif"><text x="32" y="40" font-size="15" fill="#7e7078">a little of what I do</text>',
+             '<circle cx="914" cy="35" r="5" fill="#91a58e"><animate attributeName="opacity" values="1;.35;1" dur="3s" repeatCount="indefinite"/></circle>']
+    for i, (key, label) in enumerate([("repos", "repositories"), ("stars", "stars"), ("followers", "followers"), ("forks", "forks")]):
         x = 32 + i * 232
-        parts += [f'<rect x="{x}" y="65" width="216" height="105" rx="12" fill="#161b26"/>',
+        parts += [f'<rect x="{x}" y="65" width="216" height="105" rx="12" fill="#f3ebe8"/>',
                   f'<text x="{x+18}" y="112" font-size="34" font-weight="700" fill="{colors[i]}">{escape(str(data[key]))}</text>',
-                  f'<text x="{x+18}" y="145" font-size="12" fill="#94a3b8">{label}</text>']
-    parts.append('<text x="32" y="209" font-size="14" fill="#e2e8f0">LANGUAGE MIX / REPOSITORY BYTES</text>')
+                  f'<text x="{x+18}" y="145" font-size="12" fill="#7e7078">{label}</text>']
+    parts.append('<text x="32" y="209" font-size="14" fill="#67535f">lately, in code</text>')
     languages = sorted(data["languages"].items(), key=lambda v: v[1], reverse=True)
     if languages:
         selected = languages[:4]
@@ -67,10 +67,10 @@ def render(data):
             parts.append(f'<rect x="{x:.2f}" y="232" width="{width:.2f}" height="16" fill="{colors[i]}"/>')
             x += width
             lx = 32 + i * 180
-            parts.append(f'<circle cx="{lx+4}" cy="281" r="4" fill="{colors[i]}"/><text x="{lx+15}" y="286" font-size="12" fill="#cbd5e1">{escape(language)} {value/total:.0%}</text>')
+            parts.append(f'<circle cx="{lx+4}" cy="281" r="4" fill="{colors[i]}"/><text x="{lx+15}" y="286" font-size="12" fill="#67535f">{escape(language)} {value/total:.0%}</text>')
     else:
-        parts.append('<text x="32" y="260" font-size="14" fill="#94a3b8">Language data will appear after the first refresh.</text>')
-    parts.append(f'<path d="M32 316 H928" stroke="#252b38"/><text x="32" y="347" font-size="12" fill="#94a3b8">UPDATED {escape(data["updated"])} · PUBLIC DATA ONLY</text></g></svg>')
+        parts.append('<text x="32" y="260" font-size="14" fill="#7e7078">Language data will appear after the first refresh.</text>')
+    parts.append(f'<path d="M32 316 H928" stroke="#e7dcd8"/><text x="32" y="347" font-size="12" fill="#7e7078">refreshed {escape(data["updated"])} · public GitHub data</text></g></svg>')
     return "\n".join(parts)
 
 
