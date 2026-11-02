@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+<title id="title">Ananta Upadhyay</title><desc id="desc">Animated developer terminal in violet, cyan and pink. Build, learn, ship.</desc>
+<defs><linearGradient id="g"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient><radialGradient id="glow"><stop stop-color="#7c3aed" stop-opacity=".3"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></radialGradient></defs>
+<rect width="960" height="300" rx="22" fill="#0d1117"/>
+<ellipse cx="700" cy="100" rx="310" ry="230" fill="url(#glow)"/>
+<rect x="1" y="1" width="958" height="298" rx="21" fill="none" stroke="#303645"/>
+<g font-family="monospace"><circle cx="33" cy="30" r="6" fill="#fb7185"/><circle cx="55" cy="30" r="6" fill="#fbbf24"/><circle cx="77" cy="30" r="6" fill="#34d399"/>
+<text x="109" y="35" fill="#94a3b8" font-size="13">ananta@github: ~/building</text>
+<path d="M24 54 H936" stroke="#252b38"/>
+<text x="42" y="98" fill="#22d3ee" font-size="17">$ whoami</text>
+<text x="40" y="164" fill="url(#g)" font-size="51" font-weight="700">Ananta Upadhyay</text>
+<text x="43" y="203" fill="#cbd5e1" font-size="18">FULL STACK / MLOPS / PROBLEM SOLVING</text>
+<text x="43" y="260" fill="#a78bfa" font-size="16">&gt; build. learn. ship.</text>
+<rect x="257" y="245" width="10" height="19" fill="#22d3ee"><animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></rect></g>
+<g fill="none" stroke="url(#g)" stroke-width="2" opacity=".55"><circle cx="843" cy="145" r="49" stroke-dasharray="9 13"><animateTransform attributeName="transform" type="rotate" from="0 843 145" to="360 843 145" dur="30s" repeatCount="indefinite"/></circle><circle cx="843" cy="145" r="68" stroke-dasharray="70 350"><animateTransform attributeName="transform" type="rotate" from="360 843 145" to="0 843 145" dur="20s" repeatCount="indefinite"/></circle></g>
+<text x="815" y="157" fill="#22d3ee" font-family="monospace" font-size="32">&lt;/&gt;</text><rect x="42" y="284" width="876" height="3" rx="2" fill="url(#g)"/>
+</svg>
