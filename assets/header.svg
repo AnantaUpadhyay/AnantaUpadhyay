@@ -1,17 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="300" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
-<title id="title">Ananta Upadhyay</title><desc id="desc">Animated developer terminal in violet, cyan and pink. Build, learn, ship.</desc>
-<defs><linearGradient id="g"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#a78bfa"/><stop offset="1" stop-color="#f472b6"/></linearGradient><radialGradient id="glow"><stop stop-color="#7c3aed" stop-opacity=".3"/><stop offset="1" stop-color="#0d1117" stop-opacity="0"/></radialGradient></defs>
-<rect width="960" height="300" rx="22" fill="#0d1117"/>
-<ellipse cx="700" cy="100" rx="310" ry="230" fill="url(#glow)"/>
-<rect x="1" y="1" width="958" height="298" rx="21" fill="none" stroke="#303645"/>
-<g font-family="monospace"><circle cx="33" cy="30" r="6" fill="#fb7185"/><circle cx="55" cy="30" r="6" fill="#fbbf24"/><circle cx="77" cy="30" r="6" fill="#34d399"/>
-<text x="109" y="35" fill="#94a3b8" font-size="13">ananta@github: ~/building</text>
-<path d="M24 54 H936" stroke="#252b38"/>
-<text x="42" y="98" fill="#22d3ee" font-size="17">$ whoami</text>
-<text x="40" y="164" fill="url(#g)" font-size="51" font-weight="700">Ananta Upadhyay</text>
-<text x="43" y="203" fill="#cbd5e1" font-size="18">FULL STACK / MLOPS / PROBLEM SOLVING</text>
-<text x="43" y="260" fill="#a78bfa" font-size="16">&gt; build. learn. ship.</text>
-<rect x="257" y="245" width="10" height="19" fill="#22d3ee"><animate attributeName="opacity" values="1;1;0;0" dur="1.2s" repeatCount="indefinite"/></rect></g>
-<g fill="none" stroke="url(#g)" stroke-width="2" opacity=".55"><circle cx="843" cy="145" r="49" stroke-dasharray="9 13"><animateTransform attributeName="transform" type="rotate" from="0 843 145" to="360 843 145" dur="30s" repeatCount="indefinite"/></circle><circle cx="843" cy="145" r="68" stroke-dasharray="70 350"><animateTransform attributeName="transform" type="rotate" from="360 843 145" to="0 843 145" dur="20s" repeatCount="indefinite"/></circle></g>
-<text x="815" y="157" fill="#22d3ee" font-family="monospace" font-size="32">&lt;/&gt;</text><rect x="42" y="284" width="876" height="3" rx="2" fill="url(#g)"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="320" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+<title id="title">Ananta</title><desc id="desc">Cream stationery with a sleepy bunny, bow and drifting petals.</desc>
+<style>.petal{animation:drift 9s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.breathe{animation:breathe 4s ease-in-out infinite;transform-origin:780px 243px}.spark{animation:twinkle 5s ease-in-out infinite}@keyframes drift{50%{transform:translate(4px,-9px) rotate(12deg)}}@keyframes breathe{50%{transform:scale(1,1.018)}}@keyframes twinkle{50%{opacity:.3}}@media(prefers-reduced-motion:reduce){.petal,.breathe,.spark{animation:none!important}}</style>
+<rect width="960" height="320" rx="8" fill="#fbf7f4"/><rect x="14" y="14" width="932" height="292" rx="4" fill="none" stroke="#e5d8d5"/><path d="M47 260H913" stroke="#e7dcd8"/>
+<g font-family="Georgia,serif" fill="#67535f"><text x="62" y="78" font-size="13" letter-spacing="3">A LITTLE CORNER OF THE INTERNET</text><text x="58" y="171" font-size="82" font-style="italic">Ananta</text><text x="64" y="215" font-size="18" fill="#88737d">some code, a few projects, and room to grow.</text></g>
+<g stroke="#b78e9b" stroke-width="2" fill="#ead2d8" transform="translate(395 137) rotate(-12)"><path d="M0 0C-38-30-45 18-4 5C-20 28-10 39-2 7M0 0C38-30 45 18 4 5C20 28 10 39 2 7"/><ellipse rx="5" ry="7" fill="#c29baa"/></g>
+<g class="breathe" stroke="#a68f98" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="792" cy="243" rx="80" ry="10" fill="#e9dfdc" stroke="none"/><path d="M736 212C706 190 722 169 741 184" fill="#eee5e1"/><ellipse cx="787" cy="216" rx="57" ry="31" fill="#f1e7e1"/><path d="M794 168C774 105 794 92 804 158M812 160C810 96 835 94 826 171" fill="#f1e7e1"/><path d="M798 145L794 121M820 144L825 119" stroke="#d6b0ba" stroke-width="5"/><ellipse cx="813" cy="190" rx="35" ry="29" fill="#f1e7e1"/><path d="M795 189q5 5 10 0M821 189q5 5 10 0M810 199l4 3 4-3M814 202v4" fill="none"/><ellipse cx="795" cy="199" rx="6" ry="3" fill="#e4c1c6" stroke="none"/><ellipse cx="833" cy="199" rx="6" ry="3" fill="#e4c1c6" stroke="none"/><path d="M753 238q11-9 23 0M799 240q11-9 23 0" fill="none"/></g>
+<g fill="#b29eae" font-family="Georgia,serif" class="spark"><text x="856" y="151" font-size="18">z</text><text x="873" y="128" font-size="23">z</text></g><g class="petal" fill="#d8b7c1"><path d="M665 75c-18-16-27 6 0 15 27-9 18-31 0-15"/><path d="M884 57q-14 1-9 13 14 1 9-13"/></g><g class="petal" style="animation-delay:-4s" fill="#a8b7a0"><path d="M683 107q19-20 22 1-13 11-22-1M694 108q-17-17-20 0 11 12 20 0"/></g><g stroke="#c7b39b" stroke-width="1.5" class="spark"><path d="M605 182v14m-7-7h14M892 209v12m-6-6h12"/></g><text x="62" y="287" font-family="Georgia,serif" font-size="13" font-style="italic" fill="#9b8790">welcome, make yourself at home ♡</text></svg>
