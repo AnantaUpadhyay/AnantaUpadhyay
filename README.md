@@ -1,41 +1,45 @@
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Ananta Upadhyay — build, learn, ship" />
+  <img src="assets/header.svg" width="100%" alt="Ananta — a little corner of the internet, with a sleepy bunny and drifting flowers" />
 </p>
+
+<p align="center">computer science student · web development · learning MLOps</p>
+
+Hi, I'm Ananta. I like making things for the web and figuring out how they work behind the scenes. Most of this space is projects, lab work, and things I'm still learning.
+
+<br>
+
+### a few things I've worked on
+
+[**mentHer ↗**](https://github.com/AnantaUpadhyay/mentHer_project)  
+A project with Harshita and Sanjana, bringing mentorship and resources for women entrepreneurs into one place. Built with React, Express, and MySQL.
+
+[**MLOps lab ↗**](https://github.com/AnantaUpadhyay/Mlops-Lab)  
+My practical work for MLOps. Still learning, still adding to it.
+
+<br>
 
 <p align="center">
-  <a href="https://github.com/AnantaUpadhyay?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_MY_CODE-8B5CF6?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore my code" /></a>
-  <img src="https://img.shields.io/badge/FOCUS-FULL_STACK_%2B_MLOPS-06B6D4?style=for-the-badge" alt="Focus: full stack and MLOps" />
+  <img src="assets/cat.svg" width="100%" alt="A little mauve cat walks over to a ball of yarn, with a swishing tail" />
 </p>
 
-### Hey, I'm Ananta 👋
+### things I reach for
 
-Computer science student building web projects and learning how machine learning systems reach production. Currently exploring **full-stack development, MLOps, and problem solving**—one project at a time.
+`Python` · `JavaScript` · `React` · `Node.js` · `Express` · `MySQL` · `Git`
 
-### 🧰 My toolkit
+<br>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,react,nodejs,express,mysql,git,github&amp;theme=dark" alt="Python, JavaScript, React, Node.js, Express, MySQL, Git and GitHub" />
+  <img src="assets/dashboard.svg" width="100%" alt="My public GitHub stats and language mix, refreshed daily" />
 </p>
 
-### 📡 Developer dashboard
+<details>
+<summary>a note on the numbers</summary>
 
-<p align="center">
-  <img src="assets/dashboard.svg" width="100%" alt="Public GitHub repository statistics and language breakdown, refreshed daily" />
-</p>
+Updated daily from public GitHub data. Repository count includes this profile. Stars, forks, and language bytes exclude forks and this profile repository. Language percentages describe files, not proficiency.
 
-<sub>Generated daily from public GitHub data. Language mix measures repository bytes, not proficiency; forks and this profile repo are excluded.</sub>
+</details>
 
-### 🚀 Things I'm building
+<br>
 
-| Project | What it's about | Stack / focus |
-| :--- | :--- | :--- |
-| [**mentHer**](https://github.com/AnantaUpadhyay/mentHer_project) | A team project supporting women entrepreneurs with mentorship, funding information, and government schemes. | React · Node.js · Express · MySQL |
-| [**MLOps Lab**](https://github.com/AnantaUpadhyay/Mlops-Lab) | My practical work as I learn MLOps. | Python · Jupyter · ML workflows |
-
-### 🌱 On my radar
-
-- Building useful web applications, from interface to database.
-- Understanding reproducible machine learning workflows.
-- Getting stronger at algorithms and competitive programming.
-
-<p align="center"><sub>Learning in public. Building with intent.</sub></p>
+<p align="center"><sub>thanks for stopping by ♡</sub></p>
+<p align="center"><sub>walking cat adapted from <a href="https://github.com/AsleepX/homepage-cat">AsleepX/homepage-cat</a> · <a href="assets/CAT-LICENSE.txt">MIT</a></sub></p>
