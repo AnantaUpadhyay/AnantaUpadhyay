@@ -27,11 +27,20 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           PROFILE_OWNER: ${{ github.repository_owner }}
         run: python scripts/update_dashboard.py
+      - name: Animate contribution calendar
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/snake.svg?color_snake=%23b78091&color_dots=%23eee8e5,%23d6e6d2,%23aec9a6,%238caf82,%23648b5d
+            assets/snake-dark.svg?color_snake=%23d7afbf&color_dots=%2321262d,%2334483c,%234f7057,%237a9c78,%23a8c5a0
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
       - name: Save dashboard
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/dashboard.svg
+          git add assets/dashboard.svg assets/snake.svg assets/snake-dark.svg
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Refresh public profile dashboard'
           git pull --rebase origin main
