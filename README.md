@@ -29,7 +29,7 @@ My practical work for MLOps. Still learning, still adding to it.
 <br>
 
 <p align="center">
-  <img src="assets/dashboard.svg" width="100%" alt="My public GitHub stats and language mix, refreshed daily" />
+  <img src="assets/dashboard.svg?v=soft" width="100%" alt="My public GitHub stats and language mix, refreshed daily" />
 </p>
 
 <details>
