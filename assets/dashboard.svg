@@ -5,7 +5,7 @@
 <g font-family="Georgia, serif"><text x="32" y="40" font-size="15" fill="#7e7078">a little of what I do</text>
 <circle cx="914" cy="35" r="5" fill="#91a58e"><animate attributeName="opacity" values="1;.35;1" dur="3s" repeatCount="indefinite"/></circle>
 <rect x="32" y="65" width="216" height="105" rx="12" fill="#f3ebe8"/>
-<text x="50" y="112" font-size="34" font-weight="700" fill="#b78091">3</text>
+<text x="50" y="112" font-size="34" font-weight="700" fill="#b78091">4</text>
 <text x="50" y="145" font-size="12" fill="#7e7078">repositories</text>
 <rect x="264" y="65" width="216" height="105" rx="12" fill="#f3ebe8"/>
 <text x="282" y="112" font-size="34" font-weight="700" fill="#9a8baa">0</text>
@@ -17,12 +17,14 @@
 <text x="746" y="112" font-size="34" font-weight="700" fill="#91a58e">0</text>
 <text x="746" y="145" font-size="12" fill="#7e7078">forks</text>
 <text x="32" y="209" font-size="14" fill="#67535f">lately, in code</text>
-<rect x="32.00" y="232" width="436.02" height="16" fill="#b78091"/>
-<circle cx="36" cy="281" r="4" fill="#b78091"/><text x="47" y="286" font-size="12" fill="#67535f">Jupyter Notebook 49%</text>
-<rect x="468.02" y="232" width="258.36" height="16" fill="#9a8baa"/>
-<circle cx="216" cy="281" r="4" fill="#9a8baa"/><text x="227" y="286" font-size="12" fill="#67535f">JavaScript 29%</text>
-<rect x="726.38" y="232" width="182.29" height="16" fill="#c5a180"/>
-<circle cx="396" cy="281" r="4" fill="#c5a180"/><text x="407" y="286" font-size="12" fill="#67535f">CSS 20%</text>
-<rect x="908.66" y="232" width="19.34" height="16" fill="#91a58e"/>
-<circle cx="576" cy="281" r="4" fill="#91a58e"/><text x="587" y="286" font-size="12" fill="#67535f">HTML 2%</text>
-<path d="M32 316 H928" stroke="#e7dcd8"/><text x="32" y="347" font-size="12" fill="#7e7078">refreshed 03 Nov 2026 · 07:53 UTC · public GitHub data</text></g></svg>
+<rect x="32.00" y="232" width="444.01" height="16" fill="#b78091"/>
+<circle cx="36" cy="281" r="4" fill="#b78091"/><text x="47" y="286" font-size="12" fill="#67535f">JavaScript 50%</text>
+<rect x="476.01" y="232" width="371.38" height="16" fill="#9a8baa"/>
+<circle cx="216" cy="281" r="4" fill="#9a8baa"/><text x="227" y="286" font-size="12" fill="#67535f">CSS 41%</text>
+<rect x="847.39" y="232" width="73.21" height="16" fill="#c5a180"/>
+<circle cx="396" cy="281" r="4" fill="#c5a180"/><text x="407" y="286" font-size="12" fill="#67535f">Jupyter Notebook 8%</text>
+<rect x="920.60" y="232" width="5.76" height="16" fill="#91a58e"/>
+<circle cx="576" cy="281" r="4" fill="#91a58e"/><text x="587" y="286" font-size="12" fill="#67535f">HTML 1%</text>
+<rect x="926.36" y="232" width="1.64" height="16" fill="#c4ad81"/>
+<circle cx="756" cy="281" r="4" fill="#c4ad81"/><text x="767" y="286" font-size="12" fill="#67535f">Other 0%</text>
+<path d="M32 316 H928" stroke="#e7dcd8"/><text x="32" y="347" font-size="12" fill="#7e7078">refreshed 04 Nov 2026 · 07:29 UTC · public GitHub data</text></g></svg>
